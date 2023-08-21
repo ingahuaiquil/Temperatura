@@ -17,3 +17,6 @@ fun main() {
 
 }
 
+fun isLetters(string: String): Boolean{
+    return string.none { it !in 'A' .. 'Z' && it !in 'a' .. 'z'}
+}
